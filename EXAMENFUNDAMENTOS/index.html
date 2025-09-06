@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Examen Prueba</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div id="header_1">
+                <h1>Libroteca</h1>
+                <img src="./img/logo.png" alt="logo libro">
+            </div>
+            <div id="header_2">
+                <div>
+                    <button id="inicio_de_sesion" onclick="inicio_de_sesion(this)">Inicio de sesión</button>
+                    <button id="registro">Registro</button> <!--No necesitamos el "this" pero si lo ponemos no genera inconveniente-->
+                </div>
+                
+            </div>
+        </header>
+        <main>
+            <div id="main_1">
+                <div id="main_1_a">
+                    <img src="./img/libro.png" alt="libro icon">
+                    <h3>Elije tu libro</h3>
+                </div>
+                <div id="main_1_b">
+                    <img src="./img/check.png" alt="libro icon">
+                    <h3>Revisa tu disponibilidad</h3>
+                </div>
+                <div id="main_1_c">
+                    <img src="./img/separalo.png" alt="libro icon">
+                    <h3>Sepáralo</h3>
+                </div>
+                <div id="main_1_d">
+                    <img src="./img/shipping.png" alt="libro icon">
+                    <h3>Recíbelo</h3>
+                </div>
+
+            </div>
+            <div id="main_2">
+                <a href="#" onclick="genero(this)">Ficción</a>
+                <a href="#" onclick="genero(this)">Históricos</a>
+                <a href="#" onclick="genero(this)">Tecnología</a>
+                <a href="#" onclick="genero(this)">Autoayuda</a>
+                <a href="#" onclick="genero(this)">Poesía</a>
+
+            </div>
+            <div id="main_3">
+                <h2 id="genero">Todos los libros</h2>
+
+            </div>
+            <div id="main_4">
+                <div>
+                    <img src="./img/cien.jpg" alt="libro">
+                    <p>Cien años de Soledad</p>
+                    <strong>Gabriel Garcia Marquez</strong>
+                    <button class="rentar" onclick="rentar(this)">Rentar</button>
+
+                </div>
+                <div>
+                    <img src="./img/rayuela.jpg" alt="libro">
+                    <p>Cien años de Soledad</p>
+                    <strong>Julio Cortazar</strong>
+                    <button class="rentar" onclick="rentar(this)">Rentar</button>
+
+                </div>
+                <div>
+                    <img src="./img/travesuras.jpg" alt="libro">
+                    <p>Travesuras de la niña mala</p>
+                    <strong>Mario Vargas Llosa</strong>
+                    <button class="rentar" onclick="rentar(this)">Rentar</button>
+
+                </div>
+
+            </div>
+
+        </main>
+        <footer>
+            <span>Todos los derechos. Libroteca</span><!--Como el texto es corto puedes usar span-->
+
+        </footer>
+        
+    </body>
+</html>
