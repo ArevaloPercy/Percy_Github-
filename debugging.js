@@ -24,8 +24,9 @@ let media = calcularMedia(numero1, numero2);
 console.log("La media es: " + media);
 
 //Ejemplo 
+/*
 const calcularMedia = (num1, num2) => {
-    return num1 + num2 / 2;
+    return (num1 + num2) / 2;
 };
 
 let numero1 = 5;
@@ -33,3 +34,4 @@ let numero2 = 10;
 
 let media = calcularMedia(numero1, numero2);
 console.log("La media es: " + media);
+*/
