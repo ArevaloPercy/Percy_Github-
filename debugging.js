@@ -35,3 +35,7 @@ let numero2 = 10;
 let media = calcularMedia(numero1, numero2);
 console.log("La media es: " + media);
 */
+
+for(let i=1; i<=10 i ++)
+    console.log(i)
+}
